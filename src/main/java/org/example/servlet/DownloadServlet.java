@@ -25,7 +25,6 @@ public class DownloadServlet extends HttpServlet {
             return;
         }
 
-
         String filePath = request.getParameter("path");
 
         if (filePath == null) {

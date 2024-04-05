@@ -44,7 +44,6 @@ public class UsersServlet extends HttpServlet {
             resp.getWriter().println("Пользователь с таким логином уже существует");
             return;
         }
-
         resp.sendRedirect("/files");
     }
 }
